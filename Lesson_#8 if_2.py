@@ -1,12 +1,144 @@
-#ממיינת בין 2 מספרים מי גדול יותר רק אם הם שונים
-# x = int(input ("a = "))
-# y = int(input ("b = "))
-# if x>y:
-#     print(x,">",y)
+#הגדול מבין 2 מספרים 
+# רק אם הם שונים
+#גירסה ראשונה
+# a = int(input ("\na = "))
+# a = int(input ("b = "))
+# if a>b:
+#     print(a,">",b)
 # else:
-#     print(y,">",x)
+#     print(b,">",a)
+
+#הגדול מבין 2 מספרים 
+# רק אם הם שונים
+#גירסה שניה
+# a = int(input ("\na = "))
+# b = int(input ("b = "))
+# print("The Biggest Numbe is : ",max(a,b))
 
 
+
+
+
+
+
+
+
+
+
+
+
+# #הגדול מבין 3 מספרים
+# # רק אם הם שונים
+# #גירסה ראשונה
+# a = input ("\na = ")
+# b = input ("b = ")
+# c = input ("c = ")
+# if a>b: 
+#     if a>c:
+#         print("   a is the biggest ",a)
+#     else:
+#         print("   c is the biggest ",c)
+# else:
+#     if b>c:
+#         print("   b is the biggest ",b)
+#     else:
+#         print("   c is the biggest ",c)
+ 
+
+#הגדול מבין 3 מספרים
+# רק אם הם שונים
+#גירסה שניה
+# a = input ("\na = ")
+# b = input ("b = ")
+# c = input ("c = ")
+# if a>b and a>c:
+#     print("   1a is the biggest ",a)    
+# if a>b and a<c :
+#     print("   c is the biggest ",c)  
+# if a<b and b>c:
+#     print("   b is the biggest ",b)  
+# if a<b and b<c:
+#     print("   c is the biggest ",c) 
+
+#הגדול מבין 3 מספרים
+# רק אם הם שונים
+#גירסה שלישית
+# a = input ("\na = ")
+# b = input ("b = ")
+# c = input ("c = ")
+# print("\nThe Biggest Number is : ",max(a,b,c))            
+
+
+
+
+#הגדול מבין 4 מספרים
+# רק אם הם שונים
+#גירסה ראשונה
+
+# a = input ("\na = ")
+# b = input ("b = ")
+# c = input ("c = ")
+# d = input ("d = ")
+
+# if a>b and a>c and a>d:
+#     print("a is the biggest ",a)    
+# if a>b and a>c and a<d:
+#     print("d is the biggest ",d)  
+# if a>b and a<c and c>d:
+#     print("c is the biggest ",c)  
+# if a>b and a<c and d>c:
+#     print("d is the biggest ",d)  
+# if a<b and b>c and b>d:
+#     print("b is the biggest ",b)  
+# if a<b and b>c and b<d:
+#     print("d is the biggest ",d)
+# if a<b and b<c and c>d:
+#     print("c is the biggest ",c)
+# if a<b and b<c and c<d:
+#     print("d is the biggest ",d)
+ 
+##הגדול מבין 4 מספרים
+#גירסה שניה
+# 
+# a = int(input ("\na = "))
+# b = int(input ("b = "))
+# c = int(input ("c = "))
+# d = int(input ("d = "))        
+        
+# if a>b:
+#     if a>c:
+#         if a>d:
+#             print(a)
+#         else:
+#             print(d)
+#     else:
+#         if c>d:
+#             print(c)
+#         else:
+#             print(d)
+# else:
+#     if b>c:
+#         if b>d:
+#             print(b)
+#         else:
+#             print(d)
+#     else:
+#         if c>d:
+#             print(c)
+#         else:
+#             print(d)
+
+#הגדול מבין 4 מספרים
+#גירסה שלישית
+# a = int(input ("\na = "))
+# b = int(input ("b = "))
+# c = int(input ("c = "))
+# d = int(input ("d = "))
+# print("\nThe Biggest Number is : ",max(a,b,c,d)) 
+# 
+# 
+# 
+#            
 #ממיינת בין 2 מספרים מי גדול יותר גם אם הם שווים
 
 # a = int(input ("a = "))
@@ -113,3 +245,9 @@
 #     print("good")
 # else:
 #     print("not good")
+
+# a = input("\na = ")
+# b = input("b = ")
+# c = input("c = ")
+# print("\n",sorted([a,b,c]))
+
